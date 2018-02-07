@@ -770,6 +770,8 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (magit-log-head-label-head (,@fg-violet))
                 (magit-process-ok (,@fg-green :inherit magit-section-title))
                 (magit-process-ng (,@fg-red :inherit magit-section-title))
+                ;; go-guru
+                (go-guru-hl-identifier-face (,@fg-orange))
                 ;; undo-tree
                 (undo-tree-visualizer-current-face (,@fg-orange))
                 (undo-tree-visualizer-default-face (:inherit shadow))
